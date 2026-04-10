@@ -5,6 +5,11 @@
 nome = 'João'
 print(nome)
 
+# podemos concatenar strings usando o operador +, que une duas ou mais strings em uma única string.
+sobrenome = 'Silva'
+nome_completo = nome + " " + sobrenome
+print(nome_completo)
+
 # Exemplo de string usando aspas duplas
 sobrenome = "Silva"
 print(sobrenome)
