@@ -11,10 +11,8 @@ Esta pasta é dedicada a exercícios e exemplos de operações em Python. O obje
 
 ## Como usar
 
-1. Abra o terminal na pasta do projeto:
-   ```bash
-   cd "/home/avlis/python-uni-basic/operacoes"
-   ```
+1. abba o terminal na pasta do projeto:
+   ```bash cd "/home/avlis/python-uni-basic/operacoes"```
 
 2. Crie ou execute scripts Python que demonstrem operações.
 
@@ -24,5 +22,5 @@ Entender operações em Python é fundamental para:
 
 - fazer cálculos numéricos
 - validar condições com comparações
-- controlar o fluxo de programas usando lógica booleana
+- controlar o fluxo de programas usando lógica Boolean
 - construir programas simples de forma correta e clara
