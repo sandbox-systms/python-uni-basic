@@ -29,6 +29,7 @@ match dia_semana:
         print("Domingo")
     case _:
         print("Número inválido. Por favor, digite um número entre 1 e 7.")
+
 # Neste exemplo, o programa solicita ao usuário que digite um número correspondente ao dia da semana. 
 # Em seguida, ele usa a estrutura "case" para verificar o valor do número e imprimir o nome do dia da semana correspondente. 
 # Se o número digitado não estiver entre 1 e 7, o programa imprimirá uma mensagem de erro indicando que o número é inválido.
