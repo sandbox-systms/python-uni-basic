@@ -2,14 +2,6 @@
 
 Este repositório contém um pequeno projeto de estudos de Python voltado para conceitos básicos da linguagem e exercícios. 
 
-## Estrutura do projeto até agora
-
-- `README.MD` - documento principal do projeto.
-- `datas python/` - diretório com exemplos e scripts de estudo.
-  - `readme.md` - notas de estudo sobre o conteúdo de Python.
-  - `dataTypes.py` - exemplos de tipos de dados em Python.
-  - `input_output.py` - exemplos de leitura e escrita de dados usando `input()` e `print()`.
-
 
 ## Objetivo
 
