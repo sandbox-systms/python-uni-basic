@@ -114,3 +114,5 @@ while True:
             print("Operação inválida!\n Por favor, escolha um número entre 1 e 4 ou digite 'sair' para encerrar o programa.")
     except ValueError:
         print("Por favor, digite um número válido para realizar a operação ou 'sair' para encerrar o programa.")
+
+# O programa agora está completo e funcional, permitindo ao usuário realizar operações matemáticas básicas de forma contínua até que ele decida encerrar o programa digitando "sair". O programa lida com entradas inválidas de forma robusta, garantindo que o usuário seja informado sobre erros e possa continuar usando a calculadora sem interrupções.
