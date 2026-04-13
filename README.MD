@@ -12,20 +12,7 @@ O objetivo deste projeto é praticar:
 - saída de dados com `print()`
 - sintaxe simples e execução de scripts no terminal
 
-## Como usar
-
-1. Abra o terminal na pasta do projeto:
-   ```bash
-   cd "/home/avlis/Documentos/datas python"
-   ```
-2. Execute um dos scripts com Python 3:
-   ```bash
-   python3 dataTypes.py
-   ```
-   ou
-   ```bash
-   python3 input_output.py
-   ```
+---
 
 ## Observações
 
