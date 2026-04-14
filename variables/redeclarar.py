@@ -1,4 +1,4 @@
-# È possivel redeclarar uma variável em Python, ou seja, atribuir um novo valor a uma variável já existente. Por exemplo: 
+# É possivel redeclarar uma variável em Python, ou seja, atribuir um novo valor a uma variável já existente. Por exemplo: 
 
 nome = "João" 
 print(nome)  # Saída: João
@@ -20,7 +20,7 @@ print(PI)  # Saída: 3.14159
 
 # No exemplo acima, a constante "PI" foi redeclarada com um novo valor, e o valor anterior foi sobrescrito. Portanto, a saída do código será "3.14159". No entanto, como mencionado anteriormente, é recomendado evitar a redeclaração de constantes para garantir que os valores armazenados nelas permaneçam inalterados durante a execução do programa.
 
-# Vamos trabalahar com exemplos complexos de redeclaração de variáveis e constantes em Python: 
+# Vamos trabalhar com exemplos complexos de redeclaração de variáveis e constantes em Python: 
 
 # Exemplo 1: Redeclaração de variáveis em um loop
 
