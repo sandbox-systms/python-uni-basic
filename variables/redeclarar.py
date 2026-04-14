@@ -31,10 +31,6 @@ for i in range(5):
 # No exemplo acima, a variável "numberPar" é redeclarada a cada iteração do loop, e seu valor é atualizado com base no valor de "i". A saída do código será os valores de "numberPar" para cada iteração do loop.
 
 # Exemplo 2: Redeclaração de constantes em uma função
-# In the provided code snippet, there is no variable or function named `f` defined or referenced.
-# Therefore, it seems like there might be a missing context or code related to the variable `f`. If
-# you can provide more information or context about the variable `f` or the specific code snippet
-# where `f` is used, I would be happy to help you understand its purpose or functionality.
 def calcular_area_circulo(raio):
     PI = 3.14  # Constante local
     area = PI * (raio ** 2)
