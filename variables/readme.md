@@ -1,13 +1,38 @@
-# Variaveis em ```Python```
+# Variáveis em Python
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
+
+Este repositório demonstra o uso de **variáveis** em Python, com foco em:
+
+- **`f-strings`** - Formatação moderna e intuitiva
+- **Método `format()`** - Abordagem tradicional e versátil
+- **Boas práticas** e dicas com observações
+
 ---
 
-#### Neste arquivo, observamos o uso de ```f-strings``` em python, usabilidade e dicas com observações.
+## 📌 Tópicos Abordados
 
---> f-strings 
+| Tópico | Descrição |
+|--------|----------|
+| `f-strings` | Formatação de strings com expressões embedadas |
+| `format()` | Formatação usando o método `.format()` |
+| Comentários | Anotações explicativas no código |
+
 ---
 
---> metodo format
+## ⚠️ Observação
+
+> ***Observe os comentários inline no código e aplique as mudanças para ver as diferenças na prática.***
+
 ---
 
---- 
-### ***Observe os comentarios em line e aplique para ver as diferenças***
+## 📂 Estrutura do Projeto
+
+```
+python-uni-basic/
+├── variables/
+│   ├── readme.md        # Este arquivo
+│   └── variaveis.py     # Código fonte com exemplos
+```
