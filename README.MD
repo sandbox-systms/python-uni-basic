@@ -1,29 +1,59 @@
-# Projeto Python
+# 🐍 Python Uni Basic
 
-Este repositório contém um pequeno projeto de estudos de Python voltado para conceitos básicos da linguagem e exercícios. 
-
-
-## Objetivo
-
-O objetivo deste projeto é praticar:
-
-- tipos de dados básicos em Python
-- entrada de dados com `input()`
-- saída de dados com `print()`
-- sintaxe simples e execução de scripts no terminal
+![Repo Size](https://img.shields.io/github/repo-size/sandbox-systms/python-uni-basic)
+![Stars](https://img.shields.io/github/stars/sandbox-systms/python-uni-basic?style=social)
+![Forks](https://img.shields.io/github/forks/sandbox-systms/python-uni-basic?style=social)
+![Issues](https://img.shields.io/github/issues/sandbox-systms/python-uni-basic)
+![Last Commit](https://img.shields.io/github/last-commit/sandbox-systms/python-uni-basic)
+![License](https://img.shields.io/github/license/sandbox-systms/python-uni-basic)
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 ---
 
-## Observações
+## 📌 Descrição
 
-- Use Python 3 para rodar os scripts.
-- O nome da pasta contém um espaço, então envolva o caminho entre aspas se usar o terminal.
+Repositório dedicado ao estudo de fundamentos da linguagem Python com foco acadêmico e prático.
 
-## Aprendizado esperado
+Inclui exercícios, experimentos e implementações voltadas para:
 
-Este projeto serve como base para:
+- Lógica de programação  
+- Estruturas básicas  
+- Manipulação de dados  
+- Prática progressiva para consolidação de base computacional  
 
-- entender como o Python representa diferentes tipos de valores
-- aprender a capturar dados do usuário
-- imprimir resultados no terminal de forma simples
-- praticar a organização de pequenos programas de estudo
+---
+
+## 🎯 Objetivo
+
+Construir domínio sólido em Python através de prática contínua, com abordagem incremental e orientada a problemas.
+
+---
+
+## 🧠 Conteúdos abordados
+
+- Variáveis e tipos de dados  
+- Condicionais (`if`, `else`, `elif`)  
+- Estruturas de repetição (`for`, `while`)  
+- Funções  
+- Entrada e saída de dados  
+- Strings e listas  
+- (...)
+
+---
+
+## ⚙️ Requisitos
+
+- Python 3.x instalado  
+- Ambiente Linux, Windows ou macOS  
+
+---
+
+## 🚀 Como executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/sandbox-systms/python-uni-basic.git
+
+# Acesse o diretório
+cd python-uni-basic
