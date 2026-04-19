@@ -9,12 +9,8 @@ Esta pasta é dedicada a exercícios e exemplos de operações em Python. O obje
 - ver exemplos de operadores lógicos: `and`, `or`, `not`
 - aplicar essas operações em pequenas funções ou scripts
 
-## Como usar
 
-1. abba o terminal na pasta do projeto:
-   ```bash cd "/home/avlis/python-uni-basic/operacoes"```
-
-2. Crie ou execute scripts Python que demonstrem operações.
+1. Crie ou execute scripts Python que demonstrem operações.
 
 ## Por que isso é útil
 
