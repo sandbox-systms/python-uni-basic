@@ -102,7 +102,7 @@ Se `numero` for maior que zero, a função devolve `"Positivo"` e encerra naquel
 
 ## Exemplos abordados em `funcaoReturn.py`
 
-O arquivo [funcaoReturn.py](/home/avlis/python-uni-basic/funcoes/funcaoReturn.py) foi organizado com exemplos progressivos para mostrar o uso de `return` na prática.
+O arquivo [funcaoReturn.py](./funcaoReturn.py) foi organizado com exemplos progressivos para mostrar o uso de `return` na prática.
 
 ### 1. Retorno simples
 
