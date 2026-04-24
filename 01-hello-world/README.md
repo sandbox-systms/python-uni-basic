@@ -1,46 +1,174 @@
-# Módulo 01 - Hello World 👋
+# Modulo 01 - Hello World e entrada/saida
 
-Este é o primeiro passo na sua jornada de aprendizado em Python!
+Este modulo apresenta a comunicacao mais basica entre programa e usuario: escrever no terminal com `print()` e ler dados com `input()`.
 
-## 🎯 Objetivo
+## Visao conceitual
 
-Aprender a criar e executar seu primeiro programa em Python usando a função `print()`.
+Todo programa precisa, em algum momento, exibir resultados. Em Python, `print()` e a forma mais simples de produzir saida. Quando combinado com `input()`, o codigo deixa de ser apenas demonstrativo e passa a reagir ao que o usuario digita.
 
-## 📖 Conceitos Fundamentais
+## Por que isso e importante
 
-### A função `print()`
+Antes de trabalhar com banco de dados, APIs ou interfaces visuais, o iniciante precisa entender o fluxo minimo de interacao:
 
-A função `print()` é usada para exibir texto e valores na tela do console.
+1. o programa pergunta algo
+2. o usuario informa dados
+3. o programa processa
+4. o programa devolve uma resposta
 
-```python
-print("Hello, World!")
+Esse ciclo aparece em praticamente todo software.
+
+## Vantagens
+
+- curva de aprendizado baixa
+- feedback imediato no terminal
+- excelente para depuracao e ensino
+- permite prototipos rapidos
+
+## Desvantagens e limites
+
+- interfaces de terminal nao sao ideais para todos os usuarios
+- `print()` nao substitui logging estruturado
+- `input()` retorna texto, exigindo conversoes em varios cenarios
+
+## Arquivos da secao
+
+### 1. `01-hello_world.py`
+
+Conceito:
+- primeira saida em Python
+- entendimento da sintaxe basica
+
+Entrada:
+- nenhuma
+
+Saida:
+- mensagens fixas no terminal
+
+### 2. `02-print_variados.py`
+
+Conceito:
+- variacoes de `print()`
+- uso de `sep`, `end`, `f-string`, `\n` e `\t`
+
+Entrada:
+- nenhuma
+
+Saida:
+- exemplos de formatacao textual
+
+### 3. `03-input_output.py`
+
+Conceito:
+- leitura com `input()`
+- montagem de saida a partir de dados informados
+
+Entrada:
+- nome
+- cidade
+
+Saida esperada:
+
+```text
+Digite seu nome: Ana
+Digite sua cidade: Recife
+
+Resumo do cadastro
+Nome: Ana
+Cidade: Recife
+Seja bem-vindo, Ana!
 ```
 
-### Regras importantes
+### 4. `04-projeto_final_cartao_boas_vindas.py`
 
-1. **Aspas**: Use aspas duplas `" "` ou aspas simples `' '` para delimitar strings
-2. **Parênteses**: Sempre use parênteses após `print`
-3. **Case-sensitive**: Python diferencia maiúsculas de minúsculas
+Objetivo do projeto:
+- criar um cartao textual de boas-vindas
+- consolidar entrada e saida de dados
 
-## 📁 Arquivos deste Módulo
+Caso real:
+- onboarding de curso
+- confirmacao de inscricao
+- scripts de recepcao em terminal
 
-| Arquivo | Descrição |
-|---------|-----------|
-| `hello_world.py` | Exemplo básico de Hello World |
-| `print多样化.py` | Diferentes formas de usar print |
-| `comentarios.py` | Como usar comentários em Python |
+Entrada:
+- nome do participante
+- curso
+- turno
 
-## ▶️ Como Executar
+Saida esperada:
 
-```bash
-python hello_world.py
+```text
+Nome do participante: Larissa
+Nome do curso: Python Basico
+Turno: Noite
+
+===================================
+      CARTAO DE BOAS-VINDAS
+===================================
+Participante: Larissa
+Curso: Python Basico
+Turno: Noite
+Mensagem: sua jornada em Python comecou.
+===================================
 ```
 
-## 💡 Dica
+### 5. `05-formatacao_strings.py`
 
-O programa "Hello, World!" é uma tradição na programação. Foi popularizado pelo livro "The C Programming Language" e desde então se tornou o primeiro programa que milhões de programadores escrevem ao aprender uma nova linguagem.
+Conceito:
+- interpolacao com `f-string`
+- formatacao de moeda, percentual e inteiros
+- alinhamento de colunas e preenchimento
 
----
+Quando usar:
+- relatorios no terminal
+- comprovantes simples
+- tabelas textuais
+- exibicao mais profissional de dados
 
-**[⬅️ Anterior: Voltar ao README principal](../README.md)**
-**[Próximo: Módulo 02 - Variáveis ➡️](../02-variaveis/README.md)**
+Saida esperada:
+
+```text
+Interpolacao basica com f-string
+Cliente: Marina
+
+Formatacao numerica
+Saldo atual: R$ 1534.50
+Taxa de ocupacao: 87.5%
+```
+
+### 6. `06-projeto_final_relatorio_textual.py`
+
+Objetivo do projeto:
+- gerar um relatorio financeiro legivel
+- consolidar interpolacao, alinhamento e formatacao numerica
+
+Caso real:
+- demonstrativo simples de faturamento
+- resumo administrativo
+- relatorio de fechamento mensal
+
+Entrada:
+- nome da empresa
+- faturamento
+- despesas
+
+Saida esperada:
+
+```text
+Nome da empresa: Alpha Tech
+Faturamento do mes: 12000
+Despesas do mes: 7800
+
+==========================================
+             RELATORIO MENSAL
+==========================================
+Empresa           : Alpha Tech
+Faturamento       : R$     12000.00
+Despesas          : R$      7800.00
+Lucro             : R$      4200.00
+Margem de lucro   :        35.0%
+==========================================
+```
+
+## Aprendizado profissional
+
+Embora simples, este modulo ja introduz um padrao muito usado: capturar informacoes, formatar apresentacao e entregar retorno claro ao usuario. A partir dos arquivos 5 e 6, o aluno tambem passa a ver como formatacao textual melhora a leitura e a percepcao de qualidade do software.
