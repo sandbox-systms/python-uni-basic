@@ -9,7 +9,7 @@ def main():
     nome = input("Nome do usuario: ").strip()
     cargo = input("Cargo: ").strip()
     # `split(",")` quebra a resposta em varios hobbies.
-    hobbies = input("Informe tres hobbies separados por virgula: ").split(",")
+    hobbies = input("Informe hobbies separados por virgula: ").split(",")
 
     perfil = {
         "nome": nome,
