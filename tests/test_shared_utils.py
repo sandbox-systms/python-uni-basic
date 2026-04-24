@@ -23,6 +23,10 @@ class ValidationTests(unittest.TestCase):
     def test_parse_int_returns_number(self):
         self.assertEqual(parse_int("7", "quantidade"), 7)
 
+    def test_parse_int_raises_error_for_invalid_input(self):
+        with self.assertRaises(ValueError):
+            parse_int("abc", "quantidade")
+
     def test_ensure_not_blank_trims_text(self):
         self.assertEqual(ensure_not_blank("  Ana  ", "nome"), "Ana")
 
